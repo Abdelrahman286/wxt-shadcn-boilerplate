@@ -8,7 +8,19 @@ This is a boilerplate for building Chrome extensions using React, Tailwind CSS, 
   - **New Tab**
   - **Popup**
   - **Content Script**
-- All components include an example feature that allows changing the background image.
+- All components include an example feature that allows changing the background color.
+
+
+## Development
+
+For development, use:
+
+```sh
+npm run dev
+```
+
+This will watch for changes and rebuild automatically.
+
 
 ## Installation
 
@@ -38,12 +50,3 @@ ShadCN components are **not** included by default. To use them:
 2. Copy the desired component's code manually into your project.
 3. Ensure required dependencies are installed as per ShadCN's documentation.
 
-## Development
-
-For development, use:
-
-```sh
-npm run dev
-```
-
-This will watch for changes and rebuild automatically.
